@@ -1,0 +1,16 @@
+.container{
+    width:80%;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+}
+.pizza{
+    width: calc((100% - 10px)/2);
+}
+.pizza img{
+    width:350px;
+    height:350px;
+}
